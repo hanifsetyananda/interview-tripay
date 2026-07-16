@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9033b89ee688faa90381c5338c92498d",
+    "content-hash": "73ede339d304fbbe86842b948139418f",
     "packages": [
         {
             "name": "brick/math",
@@ -6179,6 +6179,49 @@
                 }
             ],
             "time": "2026-04-26T05:33:54+00:00"
+        },
+        {
+            "name": "zerosdev/tripay-sdk-php",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zerosdev/tripay-sdk-php.git",
+                "reference": "a82ab11252364251c44e5228e04018cb70ebc97a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zerosdev/tripay-sdk-php/zipball/a82ab11252364251c44e5228e04018cb70ebc97a",
+                "reference": "a82ab11252364251c44e5228e04018cb70ebc97a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "guzzlehttp/guzzle": "^6.5|^7.0",
+                "php": ">=7.2.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ZerosDev\\TriPay\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ZerosDev",
+                    "email": "ronywisnuwardana@gmail.com"
+                }
+            ],
+            "description": "Unofficial TriPay.co.id Integration Kit for PHP",
+            "support": {
+                "issues": "https://github.com/zerosdev/tripay-sdk-php/issues",
+                "source": "https://github.com/zerosdev/tripay-sdk-php/tree/v1.0.2"
+            },
+            "time": "2025-04-03T14:08:50+00:00"
         }
     ],
     "packages-dev": [

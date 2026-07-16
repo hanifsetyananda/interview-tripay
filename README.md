@@ -8,6 +8,11 @@ Fokus saya disini adalah integrasi API nya, dan karena saya lebih condong di bac
 
 Semua perubahan saya log ke Github.
 
+### Information Detail
+- Nama Lengkap : Hanif Nouval Setyananda
+- Email : hanifsetyananda17@gmail.com
+- No. HP : 085187443496
+
 ### Teknologi
 - Laravel 13
 - Inertia 3.0
