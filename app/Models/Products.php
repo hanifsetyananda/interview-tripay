@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Carbon\CarbonImmutable;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\TypeScriptTransformer\Attributes\TypeScript;
 
@@ -12,8 +13,9 @@ use Spatie\TypeScriptTransformer\Attributes\TypeScript;
  * @property int $price
  * @property string $reference
  * @property string|null $image
- * @property \Carbon\CarbonImmutable|null $created_at
- * @property \Carbon\CarbonImmutable|null $updated_at
+ * @property CarbonImmutable|null $created_at
+ * @property CarbonImmutable|null $updated_at
+ *
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Products newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Products newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Products query()
@@ -25,6 +27,7 @@ use Spatie\TypeScriptTransformer\Attributes\TypeScript;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Products whereReference($value)
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Products whereSku($value)
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Products whereUpdatedAt($value)
+ *
  * @mixin \Eloquent
  */
 #[TypeScript]
