@@ -28,6 +28,14 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'tripay' => [
+        'merchant_code' => env('TRIPAY_MERCHANT_CODE'),
+        'api_key' => env('TRIPAY_API_KEY'),
+        'private_key' => env('TRIPAY_PRIVATE_KEY'),
+        'environment' => env('TRIPAY_ENV', 'development'),
+        'timeout' => (int) env('TRIPAY_TIMEOUT', 10),
+    ],
+
     'slack' => [
         'notifications' => [
             'bot_user_oauth_token' => env('SLACK_BOT_USER_OAUTH_TOKEN'),
